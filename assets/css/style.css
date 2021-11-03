@@ -67,24 +67,32 @@ span {
 #dailyPlanner,
 #tuneSpace,
 #weatherApp {
-    transition-duration: 2s;
+    transition-duration: 3s;
     padding: 0px;
+    text-align: center;
     
 
 }
 
+#weatherMap:hover {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
 #dailyPlanner:hover {
     padding: 0px;
-    transform: rotate(-20deg)
+    transform: rotate(-20deg);
+    text-align: center;
 }
 
 #weatherApp:hover {
     padding: 0px;
-    transform: rotate(10deg)
+    transform: rotate(20deg);
+    text-align: center;
 }
 
 
 #tuneSpace:hover {
     padding: 0px;
-    transform: rotate(35deg)
+    transform: rotate(-20deg);
+    text-align: center;
 }
