@@ -67,7 +67,7 @@ span {
 #dailyPlanner,
 #tuneSpace,
 #weatherApp {
-    transition-duration: 2git s;
+    transition-duration: 2s;
     padding: 0px;
     text-align: center;
     
@@ -80,7 +80,7 @@ span {
 
 #dailyPlanner:hover {
     padding: 0px;
-    transform: scale(1.2) rotate(-20deg) ;
+    transform: rotate(-10deg) ;
     text-align: center;
 }
 
@@ -89,11 +89,11 @@ span {
 #weatherApp:hover {
     padding: 0px;
     text-align: center;
-    transform: scale(1.2) rotate(20deg) ;
+    transform: rotate(10deg) ;
 }
 
 #tuneSpace:hover {
     padding: 0px;
-    transform: scale(1.2) rotate(-20deg) ;
+    transform: rotate(-10deg) ;
     text-align: center;
 }
