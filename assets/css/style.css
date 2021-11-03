@@ -1,0 +1,87 @@
+body {
+    background-image:  url("../images/wood-g529fdf925_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.445);
+    margin: 0px;
+    height: 100px;
+    margin-bottom: 0px;
+    align-content: stretch;
+}
+
+#heroRow {
+    /* background: url("../images/pexels-sohail-na-807598.jpg") no-repeat center center fixed; */
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+#myPhotoImg {
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    width: 200px;
+    height: 200px;
+}
+
+#photoContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+span {
+    align-self: end;
+    width: 100px;
+}
+
+#up {
+    align-self:flex-start;
+}
+
+#myPhoto {
+    text-align: center;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    padding: 0px;
+    height: 250px;
+    width:220px;
+}
+
+#workRow {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#dailyPlanner {
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    padding: 0px;
+    height: 250px;
+    width:220px;
+
+}
+
+#dailyPlanner:hover {
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+    padding: 0px;
+    height: 250px;
+    width: 220px;
+    transform: rotate(-20deg)
+}
+
+#dailyPlanner img {
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    width: 200px;
+    height: 200px;
+}
