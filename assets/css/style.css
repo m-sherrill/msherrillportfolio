@@ -11,11 +11,12 @@ h1 {
     margin: 0px;
 }
 header {
-    background-color: rgba(255, 255, 255, 0.445);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
     margin: 0px;
     height: 100px;
     margin-bottom: 0px;
     align-content: stretch;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.466);
 }
 
 #heroRow {
@@ -32,7 +33,7 @@ header {
     height: 200px;
 }
 
-#photoContainer {
+#heroCol3 {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -58,30 +59,32 @@ span {
 
 #workRow {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
-#dailyPlanner {
-    border: 10px solid white;
-    border-bottom: 40px solid white;
+#dailyPlanner,
+#tuneSpace,
+#weatherApp {
+    transition-duration: 2s;
     padding: 0px;
-    height: 250px;
-    width:220px;
+    
 
 }
 
 #dailyPlanner:hover {
-    border: 10px solid white;
-    border-bottom: 40px solid white;
     padding: 0px;
-    height: 250px;
-    width: 220px;
     transform: rotate(-20deg)
 }
 
-#dailyPlanner img {
-    border: 1px solid rgba(0, 0, 0, 0.466);
-    width: 200px;
-    height: 200px;
+#weatherApp:hover {
+    padding: 0px;
+    transform: rotate(10deg)
+}
+
+
+#tuneSpace:hover {
+    padding: 0px;
+    transform: rotate(35deg)
 }
