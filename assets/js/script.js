@@ -43,6 +43,11 @@
     $('.fixed-action-btn').floatingActionButton();
   });
 
+  // $(document).ready(function(){
+  //   $('.sidenav').sidenav();
+  // });
+
   $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $('.tooltipped').tooltip();
   });
+      

@@ -11,13 +11,15 @@ h1 {
     margin: 0px;
 }
 
+
+
+
 button {
     padding: 10px;
     margin: 5px;
     background:rgba(255, 255, 255, 0.466);
     border: 1px solid white;
 }
-
 
 
 header {
@@ -92,7 +94,7 @@ header img {
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif
     font-weight: bold;
 }
 

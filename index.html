@@ -17,7 +17,7 @@
 
 <body>
   <header id="header">
-    
+
   </header>
 
   <main id="main">
@@ -34,10 +34,10 @@
             Thank you for stopping by my little "home" on the web! Stay awhile, look around, and enjoy your stay!
             <p></p>
             <a href="#body" class="aboutMeLink"><button class="btn">Learn More About Me</button></a><br />
-            <a href="#body" class="workLink"><button class="btn">Check out my latest work</button></a><br />
+            <a href="#body" class="workLink"><button class="btn">Check out my latest projects</button></a><br />
             <a href="#body" class="contactMeLink"><button class="btn">How to Reach Me</button></a><br />
           </div>
-         
+
         </div>
       </div>
     </div>
@@ -47,7 +47,7 @@
       <div class="row" id="aboutMeDesc">
         About Me
       </div>
-    
+
       <br />Hi, I'm Morgan Sherrill. I have worked as an Operations Manager for a small business for 13 years
       in the printer cartridge industry.
       <br />
@@ -62,55 +62,69 @@
       <a class="btn-floating btn-large introLink" href="#"><i class="material-icons">home</i></a>
     </div>
 
-<!-- My Work Container -->
+    <!-- My Work Container -->
+
+
+
     <div class="container center-align" id="workContainer">
       <div class="row" id="workDesc">
-        Work
+        Latest Projects
       </div>
       <div class="row" id="workRow">
-        <div id="dailyPlanner">
-          <img src="assets/images/dailyplanner2.png" usemap="#dailyPlanner">
-          <map name="dailyPlanner">
-            <area shape="rect" coords="15,15,228,232" alt="Computer"
-              href="https://m-sherrill.github.io/work-day-planner/" target="_blank">
-          </map>
-          <br />
-          <a href="https://github.com/m-sherrill/work-day-planner" target="_blank">GitHub Repo</a><br />
+        <div>
+          <div id="dailyPlanner">
+            <img src="assets/images/dailyplanner2.png" usemap="#dailyPlanner">
+            <map name="dailyPlanner">
+              <area shape="rect" coords="15,15,228,232" alt="Computer"
+                href="https://m-sherrill.github.io/work-day-planner/" target="_blank">
+            </map>
+          </div>
+          <div id="dailyTrackerContent"><a href="https://github.com/m-sherrill/work-day-planner"
+              target="_blank">GitHub Repo</a><br />Project Report</div>
         </div>
-        <div id="weatherApp">
-          <img src="assets/images/weatherapp2.png" usemap="#weatherApp">
-          <map name="weatherApp" id="weatherMap">
-            <area shape="rect" coords="15,15,228,232" alt="Computer" href="https://m-sherrill.github.io/weather-app/"
-              target="_blank">
-          </map>
-          <br />
-          <a href="https://github.com/m-sherrill/weather-app" target="_blank">GitHub Repo</a><br />
-        </div>
-        <div id="tuneSpace">
-          <img src="assets/images/tunespace.png" usemap="#tuneSpace">
-          <map name="tuneSpace">
-            <area shape="rect" coords="15,15,228,232" alt="Computer" href="https://mjamesd.github.io/crispy-happiness/"
-              target="_blank">
-          </map>
-          <br />
-          <a href="https://github.com/mjamesd/crispy-happiness" target="_blank">GitHub Repo</a><br />
+
+        <div>
+          <div id="weatherApp">
+            <img src="assets/images/weatherapp2.png" usemap="#weatherApp">
+            <map name="weatherApp" id="weatherMap">
+              <area shape="rect" coords="15,15,228,232" alt="Computer" href="https://m-sherrill.github.io/weather-app/"
+                target="_blank">
+            </map>
+          </div>
+          <div id="weatherAppContent"><a href="https://github.com/m-sherrill/work-day-planner"
+              target="_blank">GitHub Repo</a><br />Project Report</div>
         </div>
         
-      </div>
-      <a class="btn-floating btn-large introLink" href="#"><i class="material-icons">home</i></a>
+        <div>
+      <div id="tuneSpace">
+        <img src="assets/images/tunespace.png" usemap="#tuneSpace">
+        <map name="tuneSpace">
+          <area shape="rect" coords="15,15,228,232" alt="Computer" href="https://mjamesd.github.io/crispy-happiness/"
+            target="_blank">
+        </map>
+        </div>
+        <div id="tuneSpaceContent"><a href="https://github.com/m-sherrill/work-day-planner"
+          target="_blank">GitHub Repo</a><br />Project Report</div>
     </div>
+</div>
+    
+    <a class="btn-floating btn-large introLink" href="#"><i class="material-icons">home</i></a>
+  </div>
+    
 
-<!-- Contact Me Container -->
+    <!-- Contact Me Container -->
     <div class="container" id="contactMe">
       <div id="contactMeDesc">
         Contact me!
       </div>
       <div id="contactMeContent">
-        <a href="mailto:mo.sherrill@outlook.com" target="_blank"><img src="assets/images/emailicon.png"></a>
-        <a href="http://github.com/m-sherrill" target="_blank"><img src="assets/images/githubicon.png"></a>
+        <a href="mailto:mo.sherrill@outlook.com" target="_blank"><img src="assets/images/emailicon.png" class="tooltipped" data-position="top" data-tooltip="Email"></a>
+        <a href="http://github.com/m-sherrill" target="_blank"><img src="assets/images/githubicon.png" class="tooltipped" data-position="top" data-tooltip="GitHub"></a>
         <a href="https://www.linkedin.com/in/morgan-sherrill-9a838b28/" target="_blank"><img
-            src="assets/images/linkedinicon.png"></a><br />
-            <a class="btn-floating btn-large introLink" href="#"><i class="material-icons">home</i></a>
+            src="assets/images/linkedinicon.png" class="tooltipped" data-position="top" data-tooltip="LinkedIn"></a>
+        <a href="https://www.linkedin.com/in/morgan-sherrill-9a83b28/" target="_blank"><img
+            src="assets/images/resume.png" class="tooltipped" data-position="top" data-tooltip="Resume"></a><br />
+        <a class="btn-floating btn-large introLink" href="#"><i class="material-icons">home</i></a>
       </div>
     </div>
     </div>
@@ -121,10 +135,14 @@
         <i class="large material-icons">menu</i>
       </a>
       <ul>
-        <li><a class="btn-floating btn-large aboutMeLink" style="font-size:12px; padding: 2px;" href="#body">About</a></li>
-        <li><a class="btn-floating btn-large workLink" style="font-size:12px; padding: 2px;" href="#body">Work</a></li>
-        <li><a class="btn-floating btn-large contactMeLink" style="font-size:12px; padding: 2px;" href="#body">Reach</a></li>
-        <li><a class="btn-floating btn-large contactMeLink" style="font-size:12px; padding: 2px;" href="#body">Resume</a></li>
+        <li><a class="btn-floating btn-large aboutMeLink" style="font-size:12px; padding: 2px;" href="#body">About</a>
+        </li>
+        <li><a class="btn-floating btn-large workLink" style="font-size:12px; padding: 2px;" href="#body">Projects</a>
+        </li>
+        <li><a class="btn-floating btn-large contactMeLink" style="font-size:12px; padding: 2px;"
+            href="#body">Contact</a></li>
+        <li><a class="btn-floating btn-large contactMeLink" style="font-size:12px; padding: 2px;"
+            href="#body">Resume</a></li>
         <li><a class="btn-floating btn-large introLink" href="#"><i class="material-icons">home</i></a></li>
       </ul>
     </div>
