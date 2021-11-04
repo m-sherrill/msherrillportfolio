@@ -4,6 +4,7 @@
   $("#workContainer").fadeOut(2000).css("display", "none")
   $("#intro").fadeOut(2000).css("display", "none")
   $("#contactMe").fadeOut(2000).css("display", "none")
+  
 })
 
 
@@ -13,6 +14,7 @@
     $("#intro").fadeOut(2000).css("display", "none")
     $("#aboutMe").fadeOut(2000).css("display", "none")
     $("#contactMe").fadeOut(2000).css("display", "none")
+    $("#small4img").attr("src", "assets/images/small1.png")
   })
 
 
@@ -30,4 +32,5 @@
     $("#workContainer").fadeOut(2000).css("display", "none")
     $("#aboutMe").fadeOut(2000).css("display", "none")
     $("#contactMe").fadeOut(2000).css("display", "none")
+    $("#small4img").attr("src", "assets/images/small3.png")
   })

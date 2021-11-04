@@ -17,38 +17,52 @@
 
 <body>
   <header>
-    <div id="small4"><img src="assets/images/small1.png"></div>
-  </header> 
+    <div id="small4div"><img id="small4img" src="assets/images/small3.png"></div>
+  </header>
 
   <main id="main">
 
     <div id="intro">
       <div class="row" id="heroRow">
         <div class="col s12 m6" id="heroCol1">
-          <div id="small1"><img src="assets/images/small1.png"></div>
+          <div id="small1"><img src="assets/images/small2.png"></div>
           <img id="myPhotoImg" src="./assets/images/msherrill.png">
           <div id="small2"><img src="assets/images/small1.png"></div>
         </div>
         <div class="col s12 m6" id="heroCol2">
           <div>
-          <p id="introSubtitle">Hi, I'm Morgan. A Web Developer. </p>
+            <p id="introSubtitle">Hi, I'm Morgan. A Web Developer. </p>
 
-          Thank you for stopping by my little "home" on the web! Stay awhile, look around, and enjoy your stay!
-          <p></p>
-          <a href="#aboutMe" class="aboutMeLink"><button>Learn More About Me</button></a><br />
-          <a href="#workContainer" class="workLink"><button>Check out my latest work</button></a><br />
-          <a href="#contactMe" class="contactMeLink"><button>Contact Me </button></a><br />
-        </div>
+            Thank you for stopping by my little "home" on the web! Stay awhile, look around, and enjoy your stay!
+            <p></p>
+            <a href="#aboutMe" class="aboutMeLink"><button class="btn">Learn More About Me</button></a><br />
+            <a href="#workContainer" class="workLink"><button class="btn">Check out my latest work</button></a><br />
+            <a href="#contactMe" class="contactMeLink"><button class="btn">Contact Me </button></a><br />
+          </div>
           <div id="small3"><img src="assets/images/small1.png"></div>
         </div>
       </div>
     </div>
-    <div id="aboutMe">
-      Content Content Content Content Content Content Content Content Content Content Content Content Content Content
-      <a href="#intro" class="introLink"><button>Back to Main</button></a>
-      <a href="#workContainer" class="workLink"><button>Check out my latest work</button></a>
-        <a href="#contactMe" class="contactMeLink"><button>Contact Me</button></a><br />
-        
+    <div class="container center-align" id="aboutMe">
+      <div class="row" id="aboutMeDesc">
+        About Me
+      </div>
+      <span id="small1"><img src="assets/images/small2.png"></span>
+      <br />Hi, I'm Morgan Sherrill. I have worked as an Operations Manager for a small business for 13 years
+      in the printer cartridge industry.
+      <br />
+      <br />I am currently enrolled in the UW Bootcamp for web development and hope to transition into a new career in
+      the future.
+      <br />
+      <br />In my spare time I enjoy running, reading, and spending time with my family. I live in Kirkland with my
+      husband, son, and our mini dachshund.
+      <br />
+      <br />
+      <br />
+      <a href="#intro" class="introLink"><button class="btn">Back to Main</button></a><br />
+      <a href="#workContainer" class="workLink"><button class="btn">Check out my latest work</button></a><br />
+      <a href="#contactMe" class="contactMeLink"><button class="btn">Contact Me</button></a></p><br /><br />
+
     </div>
 
 
@@ -56,7 +70,7 @@
 
     <div class="container center-align" id="workContainer">
       <div class="row" id="workDesc">
-        Check out my latest work!
+        Work
       </div>
       <div class="row" id="workRow">
         <div id="dailyPlanner">
@@ -88,22 +102,36 @@
         </div>
       </div>
       <div class="row center-align" id="backRow">
-        <a href="#intro" class="introLink"><button>Back to Main</button></a>
-        <a href="#aboutMe" class="aboutMeLink"><button>Learn More About Me</button></a>
-        <a href="#contactMe" class="contactMeLink"><button>Contact Me</button></a><br />
-        
+        <a href="#intro" class="introLink"><button class="btn">Back to Main</button></a><br />
+        <a href="#aboutMe" class="aboutMeLink"><button class="btn">Learn More About Me</button></a><br />
+        <a href="#contactMe" class="contactMeLink"><button class="btn">Contact Me</button></a><br /><br />
+
       </div>
     </div>
 
 
     <div class="container" id="contactMe">
-      <div class="row">
-        Contact me!<p>
-          <a href="#intro" class="introLink"><button>Back to Main</button></a>
-          <a href="#aboutMe" class="aboutMeLink"><button>Learn More About Me</button></a>
-        <a href="#workContainer" class="workLink"><button>Check out my latest work</button></a>
-        </p>
+
+      <div id="contactMeDesc">
+        Contact me!
       </div>
+      <div id="contactMeContent">
+        <a href="mailto:mo.sherrill@outlook.com" target="_blank"><img src="assets/images/emailicon.png"></a>
+        
+        <a href="http://github.com/m-sherrill" target="_blank"><img src="assets/images/githubicon.png"></a>
+        
+        <a href="https://www.linkedin.com/in/morgan-sherrill-9a838b28/" target="_blank"><img
+            src="assets/images/linkedinicon.png"></a><br />
+
+      </div>
+      <div id="returnLinks">
+        <a href="#intro" class="introLink"><button class="btn">Back to Main</button></a><br />
+        <a href="#aboutMe" class="aboutMeLink"><button class="btn">Learn More About Me</button></a><br />
+        <a href="#workContainer" class="workLink"><button class="btn">Check out my latest work</button></a><br/>
+      </div>
+
+      <div id="small7div" class="row"><img id="small7" src="assets/images/small2.png"></div>
+    </div>
     </div>
 
   </main>

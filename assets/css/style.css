@@ -85,7 +85,7 @@ header img {
     height: 100px;
 }
 
-#small4 {
+#small4div {
     transform: rotate(-20deg) ;
     height: 100px;
 }
@@ -96,18 +96,52 @@ header img {
     height: 100px;
 }
 
+#small6div {
+    transform: rotate(-10deg) ;
+}
+
+#small7div {
+    transform: rotate(10deg);
+    text-align: left;
+    
+}
+
+#small6 {
+    height: 105px;
+    
+}
+
+#small7 {
+    height: 150px;
+}
+
+
 #workContainer {
     display: none;
     margin-top: 50px;
-    font-family: 'Ink Free', sans-serif;
 }
 
-#workDesc {
+#aboutMeDesc,
+#workDesc,
+#contactMeDesc {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
+    font-family: 'Ink Free', sans-serif;
 }
 
+#contactMeContent {
+    margin: 50px;
+    
+}
+
+#contactMeContent img {
+    padding: 30px;
+}
+
+#returnLinks {
+    text-align: center;
+}
 #workRow {
     display: flex;
     justify-content: center;
@@ -156,9 +190,16 @@ header img {
 }
 
 #contactMe {
+    margin-top: 50px;
     display: none;
 }
 
 #aboutMe {
     display: none;
+    margin-top: 50px;
+}
+
+#contactMeContent {
+    text-align: center;
+    padding: 20px;
 }
