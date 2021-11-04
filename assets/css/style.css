@@ -18,14 +18,11 @@ button {
     border: 1px solid white;
 }
 
-header {
-    
-}
 
-header,
-footer {
+
+header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
-    height: 50px;
+    height: 100px;
     border-top: 1px solid rgba(255, 255, 255, 0.466);
     border-bottom: 1px solid rgba(255, 255, 255, 0.466);
     margin-top: 35px;
