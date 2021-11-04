@@ -4,12 +4,18 @@ body {
     background-attachment: fixed;
     background-color: white;
     background-size: cover;
-    color: white;
+    color: rgb(239, 239, 239);
 }
 
 h1 {
     margin: 0px;
 }
+
+button {
+    padding: 10px;
+    margin: 5px;
+}
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
     margin: 0px;
@@ -25,44 +31,34 @@ header {
     padding: 20px;
     text-align: center;
     text-shadow: 2px 2px 5px black;
+    font-family: 'Ink Free', sans-serif;
 }
 
-#myPhotoImg {
-    border: 1px solid rgba(0, 0, 0, 0.466);
-    width: 200px;
-    height: 200px;
+#heroCol1 {
+    transform: rotate(-10deg) ;
 }
 
-#heroCol3 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+#heroCol2 {
+    padding: 20px;
+    font-size: 30px;
 }
 
-span {
-    align-self: end;
-    width: 100px;
+#introSubtitle {
+    font-size: 35px;
+    font-weight: bold;
 }
 
-#up {
-    align-self:flex-start;
-}
-
-#myPhoto {
+#workDesc {
     text-align: center;
-    border: 10px solid white;
-    border-bottom: 40px solid white;
-    padding: 0px;
-    height: 250px;
-    width:220px;
 }
 
 #workRow {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
 }
+
 
 #dailyPlanner,
 #tuneSpace,
@@ -70,18 +66,16 @@ span {
     transition-duration: 2s;
     padding: 0px;
     text-align: center;
-    
+    padding: 20px;
 
 }
 
-#weatherMap:hover {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
 
 #dailyPlanner:hover {
     padding: 0px;
     transform: rotate(-10deg) ;
     text-align: center;
+    padding: 20px;
 }
 
 
@@ -90,10 +84,12 @@ span {
     padding: 0px;
     text-align: center;
     transform: rotate(10deg) ;
+    padding: 20px;
 }
 
 #tuneSpace:hover {
     padding: 0px;
     transform: rotate(-10deg) ;
     text-align: center;
+    padding: 20px;
 }
