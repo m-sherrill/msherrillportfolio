@@ -1,41 +1,33 @@
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });
+ // if clicking on the about me button //
+ $(".aboutMeLink").on("click", function(){
+  $("#aboutMe").fadeIn(2000).css("display", "block")
+  $("#workContainer").fadeOut(2000).css("display", "none")
+  $("#intro").fadeOut(2000).css("display", "none")
+  $("#contactMe").fadeOut(2000).css("display", "none")
+})
 
 
+// if clicking on the view work button //
+  $(".workLink").on("click", function() {
+    $("#workContainer").fadeIn(2000).css("display", "block")
+    $("#intro").fadeOut(2000).css("display", "none")
+    $("#aboutMe").fadeOut(2000).css("display", "none")
+    $("#contactMe").fadeOut(2000).css("display", "none")
+  })
 
-  // Insert in random positions
-jQuery(document).ready(function() {
 
-  // select the item(s) to move randomly
-  var $randItem = $('#heroCol1').find('.randomLeaf');
-  
-  // select the target for random placement
-  var $items = $('#heroCol1').find('.randomLeaf');
-  
-  $($randItem).each(function() { 
-  var pos = Math.floor(Math.random() * $items.length)
-  $(this).insertAfter($items.eq(pos));
-  });
+  // If clicking the button for contact //
+  $(".contactMeLink").on("click", function(){
+    $("#contactMe").fadeIn(2000).css("display", "block")
+    $("#workContainer").fadeOut(2000).css("display", "none")
+    $("#intro").fadeOut(2000).css("display", "none")
+    $("#aboutMe").fadeOut(2000).css("display", "none")
+  })
 
-  $randItem = $('#heroCol2').find('.randomLeaf');
-  
-  // select the target for random placement
-  $items = $('#heroCol2').find('.randomLeaf');
-  
-  $($randItem).each(function() { 
-  var pos = Math.floor(Math.random() * $items.length)
-  $(this).insertAfter($items.eq(pos));
-  });
-
-  $randItem = $(document).find('.randomLeaf');
-  
-  // select the target for random placement
-  $items = $(document).find(".row");
-  
-  $($randItem).each(function() { 
-  var pos = Math.floor(Math.random() * $items.length)
-  $(this).insertAfter($items.eq(pos));
-  });
-  
-  });
+   // if clicking the home button //
+   $(".introLink").on("click", function(){
+    $("#intro").fadeIn(2000).css("display", "block")
+    $("#workContainer").fadeOut(2000).css("display", "none")
+    $("#aboutMe").fadeOut(2000).css("display", "none")
+    $("#contactMe").fadeOut(2000).css("display", "none")
+  })

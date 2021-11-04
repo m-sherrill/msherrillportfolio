@@ -4,7 +4,7 @@ body {
     background-attachment: fixed;
     background-color: white;
     background-size: cover;
-    color: rgb(239, 239, 239);
+    color: rgb(218, 218, 218);
 }
 
 h1 {
@@ -14,14 +14,16 @@ h1 {
 button {
     padding: 10px;
     margin: 5px;
+    background:rgba(255, 255, 255, 0.466);
+    border: 1px solid white;
 }
 
-header {
+header,
+footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
-    margin: 0px;
-    height: 100px;
-    margin-bottom: 0px;
+    height: 50px;
     align-content: stretch;
+    border-top: 1px solid rgba(255, 255, 255, 0.466);
     border-bottom: 1px solid rgba(255, 255, 255, 0.466);
 }
 
@@ -36,6 +38,7 @@ header {
 
 #heroCol1 {
     transform: rotate(-10deg) ;
+    padding: 20px;
 }
 
 #heroCol2 {
@@ -46,10 +49,19 @@ header {
 #introSubtitle {
     font-size: 35px;
     font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+
+#workContainer {
+    display: none;
+    margin-top: 50px;
+    font-family: 'Ink Free', sans-serif;
 }
 
 #workDesc {
     text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 #workRow {
@@ -57,8 +69,13 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
+#backRow {
+    font-size: 25px;
+}
 
 #dailyPlanner,
 #tuneSpace,
@@ -92,4 +109,12 @@ header {
     transform: rotate(-10deg) ;
     text-align: center;
     padding: 20px;
+}
+
+#contactMe {
+    display: none;
+}
+
+#aboutMe {
+    display: none;
 }
