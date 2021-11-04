@@ -10,6 +10,7 @@
 
 // if clicking on the view work button //
   $(".workLink").on("click", function() {
+    window.scrollTo(0, 0)
     $("#workContainer").fadeIn(2000).css("display", "block")
     $("#intro").fadeOut(2000).css("display", "none")
     $("#aboutMe").fadeOut(2000).css("display", "none")
