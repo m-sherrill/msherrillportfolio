@@ -18,14 +18,18 @@ button {
     border: 1px solid white;
 }
 
+header {
+    
+}
+
 header,
 footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
     height: 50px;
-    display: flex;
-    justify-content: end;
     border-top: 1px solid rgba(255, 255, 255, 0.466);
     border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 header img {
@@ -45,74 +49,17 @@ header img {
 #heroCol1 {
     transform: rotate(-10deg) ;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #heroCol2 {
     padding: 20px;
     font-size: 30px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 #introSubtitle {
     font-size: 35px;
     font-weight: bold;
     text-shadow: 1px 1px 3px black;
-}
-
-#small1 {
-    transform: rotate(10deg) ;
-}
-
-#small1 img {
-    height: 150px;
-}
-
-#small2 {
-    transform: rotate(40deg) ;
-    align-self: end;
-}
-
-#small2 img {
-    height: 100px;
-}
-
-#small3 {
-    transform: rotate(-35deg) ;
-    align-self: flex-start;
-    height: 100px;
-}
-
-#small4div {
-    transform: rotate(-20deg) ;
-    height: 100px;
-}
-
-#small5 {
-    transform: rotate(35deg) ;
-    align-self: center;
-    height: 100px;
-}
-
-#small6div {
-    transform: rotate(-10deg) ;
-}
-
-#small7div {
-    transform: rotate(10deg);
-    text-align: left;
-    
-}
-
-#small6 {
-    height: 105px;
-    
-}
-
-#small7 {
-    height: 150px;
 }
 
 
@@ -172,8 +119,6 @@ header img {
     text-align: center;
     padding: 20px;
 }
-
-
 
 #weatherApp:hover {
     padding: 0px;
