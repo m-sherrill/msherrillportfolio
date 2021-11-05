@@ -11,7 +11,9 @@ h1 {
     margin: 0px;
 }
 
-
+footer {
+    height: 50px;
+}
 
 
 button {
@@ -153,3 +155,9 @@ header img {
     display: none;
 }
 
+.aboutMeLink,
+.workLink,
+.contactMeLink,
+.introLink {
+    font-size: 11px;
+}
