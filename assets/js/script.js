@@ -38,11 +38,12 @@
     $("#small4img").attr("src", "assets/images/small3.png")
   })
 
+  // Initiates Corner Menu
   $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
   });
 
- 
+//  Inititates ToolTips
   $(document).ready(function(){
     $('.tooltipped').tooltip();
   });
