@@ -2,8 +2,9 @@ body {
     background-image: url("../images/wood-g529fdf925_1920.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(7, 7, 7);
     background-size: cover;
+    font-size: 16px;
 }
 
 .websiteFrame {
@@ -18,6 +19,7 @@ body {
     bottom: 0;
     right: 0;
     width: 100px;
+    border-left: 1px solid rgba(255, 255, 255, 0.363);
 }
 
 #websiteFrameLeft {
@@ -25,6 +27,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100px;
+    border-right: 1px solid rgba(255, 255, 255, 0.363);
 }
 
 main {
@@ -47,19 +50,17 @@ color: #80cbc4;
 }
 
 #textContent {
-    /* background: #00000071; */
+    background: #202020;
     padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.363);
 }
 
 #homeBtn {
     padding: 20px;
 }
 
-.aboutMeLink,
-.workLink,
-.contactMeLink,
-.introLink {
-    font-size: 11px;
+img {
+    border: 1px solid rgba(255, 255, 255, 0.363);
 }
 
 @media screen and (max-width: 768px) {

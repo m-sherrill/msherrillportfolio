@@ -1,5 +1,5 @@
 body {
-    background-image:  url("../images/wood-g529fdf925_1920.jpg");
+    background-image: url("../images/wood-g529fdf925_1920.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: white;
@@ -16,14 +16,12 @@ footer {
     height: 50px;
 }
 
-
 button {
     padding: 10px;
     margin: 5px;
-    background:rgba(255, 255, 255, 0.466);
+    background: rgba(255, 255, 255, 0.466);
     border: 1px solid white;
 }
-
 
 header {
     background-image: url("../images/pexels-sohail-na-807598.jpg");
@@ -50,7 +48,7 @@ header img {
 }
 
 #heroCol1 {
-    transform: rotate(-10deg) ;
+    transform: rotate(-10deg);
     padding: 20px;
 }
 
@@ -65,24 +63,29 @@ header img {
     text-shadow: 1px 1px 3px black;
 }
 
-
 #workContainer {
     display: none;
     margin-top: 50px;
 }
 
-#aboutMeDesc,
-#workDesc,
-#contactMeDesc {
+#aboutMeTitle, #workDesc, #contactMeDesc {
     text-align: center;
     font-size: 35px;
     font-weight: bold;
     font-family: 'Ink Free', sans-serif;
 }
 
+#aboutMeText {
+    background: #202020;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.363);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #contactMeContent {
     margin: 50px;
-    
 }
 
 #contactMeContent img {
@@ -92,33 +95,29 @@ header img {
 #returnLinks {
     text-align: center;
 }
+
 #workRow {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif font-weight: bold;
 }
 
 #backRow {
     font-size: 25px;
 }
 
-#dailyPlanner,
-#tuneSpace,
-#weatherApp {
+#dailyPlanner, #tuneSpace, #weatherApp {
     transition-duration: 3s;
     padding: 0px;
     text-align: center;
     padding: 20px;
-
 }
-
 
 #dailyPlanner:hover {
     padding: 0px;
-    transform: rotate(-10deg) ;
+    transform: rotate(-10deg);
     text-align: center;
     padding: 20px;
 }
@@ -126,13 +125,13 @@ header img {
 #weatherApp:hover {
     padding: 0px;
     text-align: center;
-    transform: rotate(10deg) ;
+    transform: rotate(10deg);
     padding: 20px;
 }
 
 #tuneSpace:hover {
     padding: 0px;
-    transform: rotate(-10deg) ;
+    transform: rotate(-10deg);
     text-align: center;
     padding: 20px;
 }
@@ -156,9 +155,6 @@ header img {
     display: none;
 }
 
-.aboutMeLink,
-.workLink,
-.contactMeLink,
-.introLink {
+.aboutMeLink, .workLink, .contactMeLink, .introLink {
     font-size: 11px;
 }
