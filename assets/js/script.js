@@ -8,7 +8,6 @@
   
 })
 
-
 // if clicking on the view work button //
   $(".workLink").on("click", function() {
     $("#fixedMenu").css("display", "block")

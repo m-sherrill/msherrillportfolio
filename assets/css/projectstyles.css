@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/wood-g529fdf925_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(211, 211, 211);
+    background-size: cover;
+}
+
+.websiteFrame {
+    position: fixed;
+    z-index: 990;
+    background: url("../images/pexels-sohail-na-807598.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+#websiteFrameRight {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+}
+
+#websiteFrameLeft {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+h1, h4, h5 {
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Ink Free', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(211, 211, 211);
+}
+
+h5 {
+color: #80cbc4;
+}
+
+#textContent {
+    /* background: #00000071; */
+    padding: 20px;
+}
+
+#homeBtn {
+    padding: 20px;
+}
+
+.aboutMeLink,
+.workLink,
+.contactMeLink,
+.introLink {
+    font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+    #websiteFrameRight {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 10px;
+    }
+    #websiteFrameLeft {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 10px;
+    }
+}

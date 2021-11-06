@@ -5,6 +5,7 @@ body {
     background-color: white;
     background-size: cover;
     color: rgb(218, 218, 218);
+    font-size: 20px;
 }
 
 h1 {
@@ -25,7 +26,7 @@ button {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/pexels-sohail-na-807598.jpg);
+    background-image: url("../images/pexels-sohail-na-807598.jpg");
     height: 100px;
     border-top: 1px solid rgba(255, 255, 255, 0.466);
     border-bottom: 1px solid rgba(255, 255, 255, 0.466);
@@ -107,7 +108,7 @@ header img {
 #dailyPlanner,
 #tuneSpace,
 #weatherApp {
-    transition-duration: 2s;
+    transition-duration: 3s;
     padding: 0px;
     text-align: center;
     padding: 20px;
