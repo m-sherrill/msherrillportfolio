@@ -28,11 +28,11 @@ An updated version of my portfolio. My portfolio should include information abou
 
 Landing Page:
 
-![Screenshot of landing page](assets/images/readMelanding.jpg)
+![Screenshot of landing page](assets/images/readmelanding.jpg)
 
 About Me Section:
 
-![Screenshot of my about me page](assets/images/readMeabout.jpg)
+![Screenshot of my about me page](assets/images/readmeabout.jpg)
 
 My projects section:
 
