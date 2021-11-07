@@ -96,6 +96,11 @@ button {
     color: rgb(211, 211, 211);
 }
 
+#aboutMePhoto {
+    float: left;
+   padding: 10px;
+}
+
 #workContainer {
     display: none;
     margin-top: 50px;
