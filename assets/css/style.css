@@ -25,7 +25,9 @@ header img {
 }
 
 footer {
-    height: 20px;
+font-size: 16px;
+padding: 10px;
+border-top: 1px solid rgba(255, 255, 255, 0.466);
 }
 
 a:link, a:visited {
@@ -47,6 +49,7 @@ button {
 /* Hero Row */
 #heroRow {
     margin: 0px;
+    margin-bottom: 20px;
     padding: 20px;
     text-align: center;
     text-shadow: 2px 2px 5px black;
@@ -164,8 +167,12 @@ button {
     display: none;
 }
 
-.aboutMeLink, .workLink, .contactMeLink, .introLink {
+.aboutMeLink, .workLink, .contactMeLink {
     font-size: 11px;
+}
+
+.introLink {
+    margin-bottom: 30px;
 }
 
 #fixedMenu a {

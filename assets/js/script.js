@@ -38,6 +38,16 @@
     $("#small4img").attr("src", "assets/images/small3.png")
   })
 
+   // if clicking the home button //
+   $(".introLinkfixed").on("click", function(){
+    $("#fixedMenu").css("display", "none")
+    $("#intro").fadeIn(2000).css("display", "block")
+    $("#workContainer").css("display", "none")
+    $("#aboutMe").css("display", "none")
+    $("#contactMe").css("display", "none")
+    $("#small4img").attr("src", "assets/images/small3.png")
+  })
+
   // Initiates Corner Menu
   $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton();
